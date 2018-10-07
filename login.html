@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Quiq ERP</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="css/bootstrap.min.css" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900" rel="stylesheet">
+<link rel="icon" href="images/favicon.png" type="image/gif" sizes="16x16">
+<link rel="stylesheet" href="font-awesome/css/font-awesome.min.css" />
+<link rel="stylesheet" href="css/Google_MDL/material.min.css">
+<link rel="stylesheet" href="css/login_page.css">
+
+<script src="css/Google_MDL/material.min.js"></script>
+</head>
+<body>
+  
+  <div></div> 
+  <button id="login_btn">Login</button>
+  <div class="q_wrapper">
+    <iframe src="http://quiqebs.com/" style="width: 100%; height: 4000px; overflow: hidden;"></iframe>
+  </div>
+
+
+
+  <!-- Pop Ups-->
+  <div class="hidn" id="pop_login">
+ <div class="pop_bgd flexBox">
+  <div class="forClick"></div>
+  <div class="login_box flexBox">
+    <div class="login_container">
+      <div class="login_title">LOGIN</div>
+      <div class="login_field">
+        <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+          <input class="mdl-textfield__input" type="text" id="sample3">
+          <label class="mdl-textfield__label" for="sample3">Username</label>
+        </div>
+        <i class="fa fa-user"></i>
+      </div>
+      <div class="login_field">
+        <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+          <input class="mdl-textfield__input" type="password" id="sample3">
+          <label class="mdl-textfield__label" for="sample3">Password</label>
+        </div>
+        <i class="fa fa-lock"></i>
+      </div>
+      <div class="log_reminder">
+        <label class="mdl-checkbox mdl-js-checkbox mdl-js-ripple-effect" for="checkbox-1">
+          <input type="checkbox" id="checkbox-1" class="mdl-checkbox__input">
+          <span class="mdl-checkbox__label">Keep Me Signed In</span>
+        </label>
+      </div>
+      <div class="log_btn_holder">
+        <button>SIGN IN <i class="fa fa-sign-in"></i></button>
+      </div>
+      <div class="link_forgot"><a href="#">Forgot Password?</a></div>
+    </div>
+    
+  </div>
+</div> 
+</div>
+<div class="pop_closer" id="popClose">
+  <img src="images/close_button.png">
+</div>
+
+
+  
+<script src="js/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script>
+$(document).ready(function(){
+    $("#login_btn").click(function(){
+        $("#pop_login, #popClose").show();
+        $(".q_wrapper").css("width","calc(100% - 400px)");
+    });
+    $(".forClick, #popClose").click(function(){
+        $("#pop_login, #popClose").hide();
+        $(".q_wrapper").css("width","100%");
+    });
+});
+</script>
+</body>
+</html>
