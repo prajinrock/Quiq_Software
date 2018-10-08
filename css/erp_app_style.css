@@ -972,6 +972,15 @@ body{
 .paddTop_30{
 	padding-top: 30px;
 }
+.user_photo > a{
+	display: block;
+	width: 32px;
+	height: 30px;
+	padding: 0px !important;
+}
+.user_photo a img{
+	width: 100%;
+}
 @media (min-width: 768px){
 	.navbar-nav>li>a {
 	    padding-top: 6px;
