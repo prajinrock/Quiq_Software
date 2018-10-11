@@ -594,7 +594,7 @@ body{
 .content_wrap{
 	width: 100%;
 	padding: 0px 10px 10px 10px;
-	height: calc(100% - 220px);
+	height: calc(100% - 238px);
 	overflow-y: auto;
 }
 .quick_tiles{
@@ -1072,4 +1072,11 @@ body{
 }
 .qq_boxed{
 	padding: 10px 0px;
+}
+.qq_cover .mdl-radio{
+	position: relative;
+	margin-top: 12px;
+}
+.qq_cover .mdl-checkbox__label{
+	color: #555;
 }
