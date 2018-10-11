@@ -1,0 +1,26 @@
+@media (min-width: 768px){
+	.navbar-nav>li>a {
+	    padding-top: 6px;
+	    padding-bottom: 6px;
+	}
+	.submenu_bar .navbar-default .navbar-nav>li:nth-child(1)>a{
+		
+	}
+}
+@media (max-width: 768px){
+	.content_panel {
+    	width: calc(100% - 40px);
+	}
+	.navbar-nav{
+		margin: 7.5px 0px;
+	}
+	.navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:focus, .navbar-default .navbar-nav>.open>a:hover{
+		background-color: #c9edfc;	
+	}
+	.sideMenuX ul li a:focus{
+		background-color: #12a3cb;
+	}
+	.sideMenuX ul li a:focus i{
+		color: #fff;
+	}
+}

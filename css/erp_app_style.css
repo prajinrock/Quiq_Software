@@ -981,29 +981,55 @@ body{
 .user_photo a img{
 	width: 100%;
 }
-@media (min-width: 768px){
-	.navbar-nav>li>a {
-	    padding-top: 6px;
-	    padding-bottom: 6px;
-	}
-	.submenu_bar .navbar-default .navbar-nav>li:nth-child(1)>a{
-		
-	}
+.qq_cover{
+	width: 100%;
+	position: relative;
+	margin: 10px 0px;
 }
-@media (max-width: 768px){
-	.content_panel {
-    	width: calc(100% - 40px);
-	}
-	.navbar-nav{
-		margin: 7.5px 0px;
-	}
-	.navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:focus, .navbar-default .navbar-nav>.open>a:hover{
-		background-color: #c9edfc;	
-	}
-	.sideMenuX ul li a:focus{
-		background-color: #12a3cb;
-	}
-	.sideMenuX ul li a:focus i{
-		color: #fff;
-	}
+.qq_cover > input[type="text"], .qq_cover > input[type="date"], .qq_cover > input[type="password"]{
+	border:none;
+	border-bottom: 1px solid rgba(0,0,0,.1);
+	height: 30px;
+	background-color: transparent;
+	margin:20px 0px 5px 0px;
+	font-size: 15px;
+}
+.qq_cover > input[type="text"]:focus, .qq_cover > input[type="date"]:focus, .qq_cover > input[type="password"]:focus{
+	box-shadow: 0px -2px 0px rgba(17,137,170,.7) inset;
+}
+.qq_cover > select{
+	border:none;
+	border-bottom: 1px solid rgba(0,0,0,.1);
+	height: 30px;
+	background-color: transparent;
+	margin:20px 0px 5px 0px;
+	font-size: 15px;
+	font-weight: 400;
+}
+.qq_cover > select:focus{
+	box-shadow: 0px -2px 0px rgba(17,137,170,.7) inset;
+}
+.qq_cover > textarea{
+	border:none;
+	border-bottom: 1px solid rgba(0,0,0,.1);
+	height: 80px;
+	background-color: transparent;
+	margin:20px 0px 5px 0px;
+	font-size: 15px;
+	font-weight: 400;
+}
+.qq_cover > textarea:focus{
+	box-shadow: 0px -2px 0px rgba(17,137,170,.7) inset;
+}
+.tx100{
+	width: 100%;
+}
+.qq_cover > label{
+	position: absolute;
+	top: 0px;
+	font-size: 13px;
+	color: rgb(17,137,170);
+}
+.qq_boxed{
+	padding: 10px 0px;
 }
