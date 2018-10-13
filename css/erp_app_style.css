@@ -532,6 +532,10 @@ body{
 	padding: 15px;
 	width: 100%;
 	text-transform: uppercase;
+	align-items: center;
+	-webkit-align-items: center;
+	-ms-align-items: center;
+	-moz-align-items: center;
 }
 .breadscrumb a:nth-child(1){
 	padding-left: 0px;
@@ -541,11 +545,29 @@ body{
 }
 .breadscrumb a{
 	color: #7f9fae;
-	padding: 0px 10px 0px 10px;
+	padding: 2px 10px 0px 10px;
 }
 .breadscrumb i{
 	color: #179fd8;
-	margin-top: 2px;
+}
+.codeTitle{
+	font-size: 14px;
+	font-weight: 400;
+	margin: 0px 10px;
+	padding: 2px 5px 0px 5px;
+	text-transform: none;
+	background-color: #bfe5f5;
+	color: #4d6c7b;
+	border-radius: 2px;
+
+}
+.codeDescription{
+	font-size: 13px;
+	font-weight: 400;
+	padding: 0px 10px;
+	text-transform: none;
+	font-style: italic;
+	color: #4d6c7b;
 }
 .menu_tabs{
 	padding:10px;
@@ -914,6 +936,9 @@ body{
 .btn_Box{
 	padding: 10px 0px;
 }
+.tab_cover > .field_container{
+	padding: 10px 0px;
+}
 .field_container .mdl-tabs__tab{
 	padding: 0px 15px;
 	text-decoration: none;
@@ -1026,7 +1051,7 @@ body{
 	position: relative;
 	margin: 10px 0px;
 }
-.qq_cover > input[type="text"], .qq_cover > input[type="date"], .qq_cover > input[type="password"]{
+.qq_cover > input[type="text"], .qq_cover > input[type="date"], .qq_cover > input[type="password"], .qq_cover > input[type="time"]{
 	border:none;
 	border-bottom: 1px solid rgba(0,0,0,.1);
 	height: 30px;
@@ -1034,7 +1059,7 @@ body{
 	margin:20px 0px 5px 0px;
 	font-size: 15px;
 }
-.qq_cover > input[type="text"]:focus, .qq_cover > input[type="date"]:focus, .qq_cover > input[type="password"]:focus{
+.qq_cover > input[type="text"]:focus, .qq_cover > input[type="date"]:focus, .qq_cover > input[type="password"]:focus, .qq_cover > input[type="time"]:focus{
 	box-shadow: 0px -2px 0px rgba(17,137,170,.7) inset;
 }
 .qq_cover > select{
@@ -1079,4 +1104,9 @@ body{
 }
 .qq_cover .mdl-checkbox__label{
 	color: #555;
+}
+.codeActive{
+	position: absolute;
+	top: -10px;
+	right: 0px;
 }

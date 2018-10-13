@@ -17,6 +17,7 @@
 <link rel="stylesheet" href="css/getmdl-select.min.css"><!--MultiSelect-->
 <link rel="stylesheet" href="css/login_page.css"><!--Login Page Style Not Required for other pages-->
 <link rel="stylesheet" href="css/erp_app_style.css"><!--Main CSS-->
+<link rel="stylesheet" href="css/device_style.css"><!--Device CSS-->
 <script src="css/Google_MDL/material.min.js"></script><!--Material UI JS-->
 
 </head>
@@ -125,6 +126,10 @@
       <a href="">Administration</a>
       <i class="fa fa-chevron-circle-right" aria-hidden="true"></i>
       <a href="#">Currency</a>
+      <i class="fa fa-chevron-circle-right" aria-hidden="true"></i>
+      <span class="codeTitle">TXR9837</span>
+      <i class="fa fa-chevron-circle-right" aria-hidden="true"></i>
+      <span class="codeDescription">Which will provide not only better formatting</span>
     </div>
     <div class="menu_tabs">
       <ul class="nav nav-tabs">
@@ -163,24 +168,22 @@
                 <div class="col-sm-3">
                   <div class="qq_boxed">
                     <div class="qq_cover">
-                      <label>Field Name</label>
+                      <label>Code</label>
                       <input type="text" name="" class="tx100">
+                      <div class="codeActive">
+                        <label class="mdl-checkbox mdl-js-checkbox mdl-js-ripple-effect" for="isActive">
+                          <input type="checkbox" id="isActive" class="mdl-checkbox__input">
+                          <span class="mdl-checkbox__label">Is Active</span>
+                        </label>
+                      </div>
                     </div>
                   </div>
                 </div>
                 <div class="col-sm-3">
                   <div class="qq_boxed">
                     <div class="qq_cover">
-                      <label>Field Name</label>
+                      <label>Description</label>
                       <input type="text" name="" class="tx100">
-                    </div>
-                  </div>
-                </div>
-                <div class="col-sm-3">
-                  <div class="qq_boxed">
-                    <div class="qq_cover">
-                      <label>Date</label>
-                      <input type="date" name="" class="tx100">
                     </div>
                   </div>
                 </div>
@@ -193,6 +196,14 @@
                         <option>Select 2</option>
                         <option>Select 3</option>
                       </select>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-sm-3">
+                  <div class="qq_boxed">
+                    <div class="qq_cover">
+                      <label>Date</label>
+                      <input type="date" name="" class="tx100">
                     </div>
                   </div>
                 </div>
@@ -231,6 +242,14 @@
                         <option>Select 2</option>
                         <option>Select 3</option>
                       </select>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-sm-3">
+                  <div class="qq_boxed">
+                    <div class="qq_cover">
+                      <label>Textarea</label>
+                      <textarea name="" class="tx100"></textarea>
                     </div>
                   </div>
                 </div>
