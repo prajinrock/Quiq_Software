@@ -21,6 +21,7 @@ body{
 }
 *{
 	box-sizing: border-box;
+	outline: none;
 }
 /*COMMON STYLES*/
 .pad_10{
@@ -936,6 +937,9 @@ body{
 .btn_Box{
 	padding: 10px 0px;
 }
+.btn_Box2{
+	padding-top: 22px;
+}
 .tab_cover > .field_container{
 	padding: 10px 0px;
 }
@@ -1058,6 +1062,7 @@ body{
 	background-color: transparent;
 	margin:20px 0px 5px 0px;
 	font-size: 15px;
+	outline: none;
 }
 .qq_cover > input[type="text"]:focus, .qq_cover > input[type="date"]:focus, .qq_cover > input[type="password"]:focus, .qq_cover > input[type="time"]:focus{
 	box-shadow: 0px -2px 0px rgba(17,137,170,.7) inset;
@@ -1109,4 +1114,10 @@ body{
 	position: absolute;
 	top: -10px;
 	right: 0px;
+}
+.qq_boxed > label{
+	font-size: 14px;
+	color: #34495e;
+	padding-top: 26px;
+	display: inline-block;
 }
