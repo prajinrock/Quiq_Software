@@ -21,7 +21,7 @@ body{
 }
 *{
 	box-sizing: border-box;
-	outline: none !important;
+	outline: none;
 }
 /*COMMON STYLES*/
 .pad_10{
@@ -1115,55 +1115,9 @@ body{
 	top: -10px;
 	right: 0px;
 }
-.qq_lbl_only{
+.qq_boxed > label{
 	font-size: 14px;
-	padding-top: 20px;
-}
-.qq_tx_only > input[type="text"]{
-	border:none;
-	border-bottom: 1px solid rgba(0,0,0,.1);
-	height: 30px;
-	background-color: transparent;
-	margin:5px 0px 5px 0px;
-	font-size: 15px;
-	outline: none;
-	width: 100%;
-}
-.qq_tx_only > input[type="text"]:focus{
-	box-shadow: 0px -2px 0px rgba(17,137,170,.7) inset;
-}
-.content_grid_box_part{
-	border:1px solid #bfe5f5;
-	width: 45%;
-}
-.control_grid_box{
-	width: 10%;
-	justify-content: center;
-	-webkit-justify-content: center;
-	-ms-justify-content: center;
-	-moz-justify-content: center;
-	align-items: center;
-	-webkit-align-items: center;
-	-moz-align-items: center;
-	-ms-align-items: center;
-}
-.swapper_box{
-
-}
-.swapper_box > .swappr:nth-child(1){
-	border-radius:5px 0px 0px 5px;
-	border-right: 1px solid rgba(0,0,0,.1);
-}
-.swapper_box > .swappr:nth-child(2){
-	border-radius:0px 5px 5px 0px;
-}
-.swappr{
-	background-color: #12a3cb;
-	border: none;
-	color: #fff;
-	padding: 10px 10px;
-	font-size: 20px;
-}
-.hidePost{
-	display: none !important;
+	color: #34495e;
+	padding-top: 26px;
+	display: inline-block;
 }

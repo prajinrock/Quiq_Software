@@ -117,9 +117,9 @@
     </nav>
     </div>
     <div class="breadscrumb flexBox">
-      <a href="">Sales</a>
+      <a href="#">Accounts</a>
       <i class="fa fa-chevron-circle-right" aria-hidden="true"></i>
-      <a href="#">Discount</a>
+      <a href="#">Post Group</a>
     </div>
     <div class="menu_tabs">
       <ul class="nav nav-tabs">
@@ -148,11 +148,14 @@
       <div class="pad_10 flexBox Qbox_100">
         <div class="gnrl_tab">
           <ul class="nav nav-tabs">
-            <li class="active"><a data-toggle="tab" href="#">General</a></li>
+            <li class="active"><a data-toggle="tab" href="#genr_tab_1">General</a></li>
+            <li><a data-toggle="tab" href="#genr_tab_2">Customer</a></li>
+            <li><a data-toggle="tab" href="#genr_tab_3">Fixed Asset</a></li>
+            <li><a data-toggle="tab" href="#genr_tab_4">Inventory</a></li>
+            <li><a data-toggle="tab" href="#genr_tab_5">Vendor</a></li>
           </ul>
-
           <div class="tab-content">
-            <div id="companyGnrl" class="tab-pane fade in active">
+            <div id="genr_tab_1" class="tab-pane fade in active">
               <div class="row">
                 <div class="col-sm-3">
                   <div class="qq_boxed">
@@ -173,203 +176,209 @@
                 <div class="col-sm-3">
                   <div class="qq_boxed">
                     <div class="qq_cover">
-                      <label>Start Date</label>
-                      <input type="date" name="" class="tx100">
-                    </div>
-                  </div>
-                </div>
-                <div class="col-sm-3">
-                  <div class="qq_boxed">
-                    <div class="qq_cover">
-                      <label>End Date</label>
-                      <input type="date" name="" class="tx100">
+                      <label>Group Type</label>
+                      <select class="tx100">
+                        <option>Select 1</option>
+                        <option>Select 2</option>
+                        <option>Select 3</option>
+                      </select>
                     </div>
                   </div>
                 </div>
               </div>
+            </div>
+            <div id="genr_tab_2" class="tab-pane fade">
               <div class="row">
-                <div class="col-sm-3">
-                  <div class="qq_boxed">
-                    <div class="qq_cover">
-                      <label>Start Time</label>
-                      <input type="time" name="" class="tx100">
-                    </div>
-                  </div>
-                </div>
-                <div class="col-sm-3">
-                  <div class="qq_boxed">
-                    <div class="qq_cover">
-                      <label>End Time</label>
-                      <input type="time" name="" class="tx100">
-                    </div>
-                  </div>
-                </div>
-                <div class="col-sm-3">
-                  <div class="qq_boxed">
-                    <div class="qq_cover">
-                      <label>Voucher Type</label>
-                      <select class="tx100">
-                        <option>Select 1</option>
-                        <option>Select 2</option>
-                        <option>Select 3</option>
-                      </select>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-sm-3">
-                  <div class="qq_boxed">
-                    <div class="qq_cover">
-                      <label>Discount Type</label>
-                      <select class="tx100">
-                        <option>Select 1</option>
-                        <option>Select 2</option>
-                        <option>Select 3</option>
-                      </select>
-                    </div>
-                  </div>
-                </div>
-              </div>
-
+                <div class="col-sm-8">
                   <div class="row">
-                    <div class="field_container padd_down_cutter">
-                      <div class="inner_box_title">Select Different Rate Pricing Levels</div>
+                    <div class="col-sm-3">
+                      <div class="qq_boxed">
+                        <label>Customer Sales</label>
+                      </div>
                     </div>
-                  </div>
-                  <div class="row">
-                    <div class="col-sm-1">
-                      <div class="field_container padd_down_cutter">
-                        <div class="radio_align" style="padding-top: 20px;">
-                          <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="salesOption1">
-                            <input type="radio" id="salesOption1" class="mdl-radio__button" name="options" value="1">
-                          </label>
+                    <div class="col-sm-3">
+                      <div class="qq_boxed">
+                        <div class="qq_cover">
+                          <input type="text" name="" class="tx100">
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-sm-4">
+                      <div class="qq_boxed">
+                        <div class="qq_cover">
+                          <input type="text" name="" class="tx100">
                         </div>
                       </div>
                     </div>
                     <div class="col-sm-2">
                       <div class="qq_boxed">
-                        <div class="qq_cover">
-                          <label>Buy</label>
-                          <input type="text" name="" class="tx100">
-                        </div>
-                      </div>
-                    </div>
-                    <div class="col-sm-3">
-                      <div class="qq_boxed">
-                        <div class="qq_cover">
-                          <label>For Amount</label>
-                          <input type="text" name="" class="tx100">
-                        </div>
-                      </div>
-                    </div>
-                    <div class="col-sm-3">
-                      <div class="qq_boxed">
-                        <div class="qq_cover">
-                          <label>Get Free</label>
-                          <input type="text" name="" class="tx100">
-                        </div>
-                      </div>
-                    </div>
-                    <div class="col-sm-3">
-                      <div class="qq_boxed">
-                        <div class="qq_cover">
-                          <label>Unit Price</label>
-                          <input type="text" name="" class="tx100">
+                        <div class="btn_Box2">
+                          <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent">
+                            Add
+                          </button>
                         </div>
                       </div>
                     </div>
                   </div>
                   <div class="row">
-                    <div class="col-sm-1">
-                      <div class="field_container padd_down_cutter">
-                        <div class="radio_align" style="padding-top: 20px;">
-                          <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="salesOption2">
-                            <input type="radio" id="salesOption2" class="mdl-radio__button" name="options" value="1">
-                          </label>
+                    <div class="col-sm-3">
+                      <div class="qq_boxed">
+                        <label>Customer Sales Return</label>
+                      </div>
+                    </div>
+                    <div class="col-sm-3">
+                      <div class="qq_boxed">
+                        <div class="qq_cover">
+                          <input type="text" name="" class="tx100">
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-sm-4">
+                      <div class="qq_boxed">
+                        <div class="qq_cover">
+                          <input type="text" name="" class="tx100">
                         </div>
                       </div>
                     </div>
                     <div class="col-sm-2">
                       <div class="qq_boxed">
-                        <div class="qq_cover">
-                          <label>Buy</label>
-                          <input type="text" name="" class="tx100">
+                        <div class="btn_Box2">
+                          <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent">
+                            Add
+                          </button>
                         </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-sm-3">
+                      <div class="qq_boxed">
+                        <label>Customer Sales Line Item Discount</label>
                       </div>
                     </div>
                     <div class="col-sm-3">
                       <div class="qq_boxed">
                         <div class="qq_cover">
-                          <label>At (Price/Unit)</label>
                           <input type="text" name="" class="tx100">
                         </div>
+                      </div>
+                    </div>
+                    <div class="col-sm-4">
+                      <div class="qq_boxed">
+                        <div class="qq_cover">
+                          <input type="text" name="" class="tx100">
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-sm-2">
+                      <div class="qq_boxed">
+                        <div class="btn_Box2">
+                          <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent">
+                            Add
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-sm-3">
+                      <div class="qq_boxed">
+                        <label>Sales Payment Discounts</label>
                       </div>
                     </div>
                     <div class="col-sm-3">
                       <div class="qq_boxed">
                         <div class="qq_cover">
-                          <label>Get More</label>
                           <input type="text" name="" class="tx100">
                         </div>
+                      </div>
+                    </div>
+                    <div class="col-sm-4">
+                      <div class="qq_boxed">
+                        <div class="qq_cover">
+                          <input type="text" name="" class="tx100">
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-sm-2">
+                      <div class="qq_boxed">
+                        <div class="btn_Box2">
+                          <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent">
+                            Add
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-sm-3">
+                      <div class="qq_boxed">
+                        <label>Account Recoverable</label>
                       </div>
                     </div>
                     <div class="col-sm-3">
                       <div class="qq_boxed">
                         <div class="qq_cover">
-                          <label>At % Off</label>
                           <input type="text" name="" class="tx100">
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-sm-4">
+                      <div class="qq_boxed">
+                        <div class="qq_cover">
+                          <input type="text" name="" class="tx100">
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-sm-2">
+                      <div class="qq_boxed">
+                        <div class="btn_Box2">
+                          <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent">
+                            Add
+                          </button>
                         </div>
                       </div>
                     </div>
                   </div>
                   <div class="row">
-                    <div class="col-sm-1">
-                      <div class="field_container padd_down_cutter">
-                        <div class="radio_align" style="padding-top: 20px;">
-                          <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="salesOption3">
-                            <input type="radio" id="salesOption3" class="mdl-radio__button" name="options" value="1">
-                          </label>
+                    <div class="col-sm-3">
+                      <div class="qq_boxed">
+                        <label>Customer Advance</label>
+                      </div>
+                    </div>
+                    <div class="col-sm-3">
+                      <div class="qq_boxed">
+                        <div class="qq_cover">
+                          <input type="text" name="" class="tx100">
                         </div>
                       </div>
                     </div>
-                    <div class="col-sm-5">
+                    <div class="col-sm-4">
                       <div class="qq_boxed">
                         <div class="qq_cover">
-                          <label>Unit Price</label>
                           <input type="text" name="" class="tx100">
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-sm-2">
+                      <div class="qq_boxed">
+                        <div class="btn_Box2">
+                          <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent">
+                            Add
+                          </button>
                         </div>
                       </div>
                     </div>
                   </div>
                   <div class="row">
-                    <div class="col-sm-1">
-                      <div class="field_container padd_down_cutter">
-                        <div class="radio_align" style="padding-top: 20px;">
-                          <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="salesOption4">
-                            <input type="radio" id="salesOption4" class="mdl-radio__button" name="options" value="1">
-                          </label>
-                        </div>
+                    <div class="col-sm-3">
+                      <div class="qq_boxed">
+                        <label>Finance Charges</label>
                       </div>
                     </div>
-                    <div class="col-sm-5">
+                    <div class="col-sm-3">
                       <div class="qq_boxed">
                         <div class="qq_cover">
-                          <label>Discount %</label>
-                          <input type="text" name="" class="tx100">
-                        </div>
-                      </div>
-                    </div>
-                    
-                  </div>
-                  <div class="row">
-                    <div class="field_container padd_down_cutter">
-                      <div class="inner_box_title">Select the Quantity Discount Levels</div>
-                    </div>
-                  </div>
-                  <div class="row">
-                    <div class="col-sm-4">
-                      <div class="qq_boxed">
-                        <div class="qq_cover">
-                          <label>Min Quantity</label>
                           <input type="text" name="" class="tx100">
                         </div>
                       </div>
@@ -377,113 +386,39 @@
                     <div class="col-sm-4">
                       <div class="qq_boxed">
                         <div class="qq_cover">
-                          <label>Discount %</label>
                           <input type="text" name="" class="tx100">
                         </div>
                       </div>
                     </div>
-                    <div class="col-sm-4">
+                    <div class="col-sm-2">
                       <div class="qq_boxed">
-                        <div class="qq_cover">
-                          <label>Discount in Amount</label>
-                          <input type="text" name="" class="tx100">
+                        <div class="btn_Box2">
+                          <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent">
+                            Add
+                          </button>
                         </div>
                       </div>
                     </div>
                   </div>
-                  <div class="row">
-                    <div class="col-sm-4">
-                      <div class="qq_boxed">
-                        <div class="qq_cover">
-                          <input type="text" name="" class="tx100">
-                        </div>
-                      </div>
-                    </div>
-                    <div class="col-sm-4">
-                      <div class="qq_boxed">
-                        <div class="qq_cover">
-                          <input type="text" name="" class="tx100">
-                        </div>
-                      </div>
-                    </div>
-                    <div class="col-sm-4">
-                      <div class="qq_boxed">
-                        <div class="qq_cover">
-                          <input type="text" name="" class="tx100">
-                        </div>
-                      </div>
+                </div>
+                <div class="col-sm-4">
+                  <div class="field_container">
+                    <div class="content_inner_box pad_10">
+                      sdsdsd
                     </div>
                   </div>
-                  <div class="row">
-                    <div class="col-sm-4">
-                      <div class="qq_boxed">
-                        <div class="qq_cover">
-                          <input type="text" name="" class="tx100">
-                        </div>
-                      </div>
-                    </div>
-                    <div class="col-sm-4">
-                      <div class="qq_boxed">
-                        <div class="qq_cover">
-                          <input type="text" name="" class="tx100">
-                        </div>
-                      </div>
-                    </div>
-                    <div class="col-sm-4">
-                      <div class="qq_boxed">
-                        <div class="qq_cover">
-                          <input type="text" name="" class="tx100">
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="row">
-                    <div class="col-sm-4">
-                      <div class="qq_boxed">
-                        <div class="qq_cover">
-                          <input type="text" name="" class="tx100">
-                        </div>
-                      </div>
-                    </div>
-                    <div class="col-sm-4">
-                      <div class="qq_boxed">
-                        <div class="qq_cover">
-                          <input type="text" name="" class="tx100">
-                        </div>
-                      </div>
-                    </div>
-                    <div class="col-sm-4">
-                      <div class="qq_boxed">
-                        <div class="qq_cover">
-                          <input type="text" name="" class="tx100">
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="row">
-                    <div class="col-sm-4">
-                      <div class="qq_boxed">
-                        <div class="qq_cover">
-                          <input type="text" name="" class="tx100">
-                        </div>
-                      </div>
-                    </div>
-                    <div class="col-sm-4">
-                      <div class="qq_boxed">
-                        <div class="qq_cover">
-                          <input type="text" name="" class="tx100">
-                        </div>
-                      </div>
-                    </div>
-                    <div class="col-sm-4">
-                      <div class="qq_boxed">
-                        <div class="qq_cover">
-                          <input type="text" name="" class="tx100">
-                        </div>
-                      </div>
-                    </div>
-                  </div>
+                </div>
               </div>
+            </div>
+            <div id="genr_tab_3" class="tab-pane fade">
+              sdsds
+            </div>
+            <div id="genr_tab_4" class="tab-pane fade">
+              sdsds
+            </div>
+            <div id="genr_tab_5" class="tab-pane fade">
+              sdsds
+            </div>
           </div>
         </div>
       </div>
