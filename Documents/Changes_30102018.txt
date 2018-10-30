@@ -1,0 +1,11 @@
+Photo Upload
+Selling Price List
+Payment Method - Radio
+Tax Master - Check Box Radio
+
+Ribbon Control Issue Tab not changing.
+POS Ribbon links breaking
+POP Up issue overlay
+
+POS Select
+and Other POP UP
