@@ -19,6 +19,18 @@ body{
 	-moz-justify-content: center;
 	-ms-justify-content: center;
 }
+.js_end{
+	justify-content: flex-end;
+	-webkit-justify-content: flex-end;
+	-moz-justify-content: flex-end;
+	-ms-justify-content: flex-end;
+}
+.al_it{
+	align-items: center;
+	-webkit-align-items: center;
+	-moz-align-items: center;
+	-ms-align-items: center;
+}
 *{
 	box-sizing: border-box;
 	outline: none !important;
@@ -1166,4 +1178,78 @@ body{
 }
 .hidePost{
 	display: none !important;
+}
+.quiq_modal .modal-header{
+	background-color: #47bac1;
+	border-radius: 6px 6px 0px 0px;
+}
+.quiq_modal .modal-title{
+	font-size: 18px;
+	color: #fff;
+	font-family: 'Roboto', sans-serif;
+}
+.quiq_modal .close{
+	color: #fff;
+    text-shadow: 0 1px 0 #000;
+    opacity: .4;
+}
+.quiq_modal .modal_scroll{
+	max-height: 400px;
+	overflow-y: auto;
+	width: 100%;
+	padding-top: 10px;
+}
+.pos_box{
+	width: 130px;
+	height: 130px;
+	background-color: #333;
+	margin: 10px;
+	border:3px;
+	flex-direction: column;
+	-webkit-flex-direction: column;
+	-moz-flex-direction: column;
+	-ms-flex-direction: column;
+	border-radius: 3px;
+	cursor: pointer;
+	transition: all .3s;
+}
+.pos_box:hover{
+	box-shadow: 0px 130px 0px rgba(0,0,0,.1) inset;
+}
+.pos_box:focus{
+	box-shadow: 0px 130px 0px rgba(0,0,0,.1) inset;
+}
+.box_retial{
+	background-color: #ffc000;
+}
+.box_restaurant{
+	background-color: #fc7f0c;
+}
+.box_home{
+	background-color: #e84b3a;
+}
+.pos_box > div{
+	width: 60px;
+	height: 60px;
+}
+.pos_box > div > img{
+	width: 100%;
+}
+.pos_box > label{
+	color: #fff;
+	font-weight: 700;
+	text-transform: uppercase;
+}
+.price_list_contain{
+	padding: 20px 0px;
+}
+.inline_lbl{
+	font-size: 15px;
+	padding-right: 15px;
+}
+.qq_button_holdr{
+	padding-top: 10px;
+}
+.pad_vert{
+	padding: 15px 0px;
 }
