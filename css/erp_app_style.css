@@ -542,7 +542,7 @@ body{
 .breadscrumb{
 	font-size: 15px;
 	font-weight: 500;
-	padding: 15px;
+	padding: 12px 15px;
 	width: 100%;
 	text-transform: uppercase;
 	align-items: center;
@@ -955,17 +955,17 @@ body{
 .tab_cover > .field_container{
 	padding: 10px 0px;
 }
-.field_container .mdl-tabs__tab{
+.field_container .mdl-tabs__tab, .price_list_contain .mdl-tabs__tab{
 	padding: 0px 15px;
 	text-decoration: none;
 	color: rgba(0,0,0,.45);
 }
-.field_container .mdl-tabs.is-upgraded .mdl-tabs__tab.is-active{
+.field_container .mdl-tabs.is-upgraded .mdl-tabs__tab.is-active, .price_list_contain .mdl-tabs.is-upgraded .mdl-tabs__tab.is-active{
 	color: #34495e;
 	text-decoration: none;
 	background-color: rgba(255,255,255,.4);
 }
-.field_container .mdl-tabs__tab-bar{
+.field_container .mdl-tabs__tab-bar, .price_list_contain .mdl-tabs__tab-bar{
 		background-color: #bfe5f5;
 }
 .minorTab > .nav-pills{
@@ -1105,6 +1105,9 @@ body{
 }
 .tx100{
 	width: 100%;
+}
+.tx90{
+	width: 90%;
 }
 .qq_cover > label{
 	position: absolute;
