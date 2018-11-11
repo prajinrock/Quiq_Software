@@ -1256,3 +1256,64 @@ body{
 .pad_vert{
 	padding: 15px 0px;
 }
+.trans_container{
+	width: 30px;
+    height: 420px;
+    /*background-color: aqua;*/
+    position: fixed;
+    right: 0px;
+    z-index: 50;
+    top: 30%;
+}
+.transBox{
+	justify-content: center;
+	-webkit-justify-content: center;
+	-moz-justify-content: center;
+	-ms-justify-content: center;
+}
+.transBox > button{
+	white-space: nowrap;
+	transform: rotate(-90deg);
+	position: absolute;
+	top: 50px;
+	background-color: #10a6c3;
+	border:none;
+	padding: 5px 15px;
+	color: #fff;
+}
+.transBox > button:nth-child(2){
+	top: 196px;
+}
+.transBox > button:nth-child(3){
+	top: 319px;
+}
+.containerBox{
+	display: none;
+	background-color: #f1f1f1;
+	height: 100%;
+	width: 25%;
+	position: relative;
+}
+.actContain{
+	width: 75%;
+}
+.containOn{
+	display: block;
+}
+.contain_Toggle{
+	background-color: #12a3cb;
+	color: #fff;
+	position: absolute;
+	padding: 5px 10px;
+	cursor: pointer;
+}
+.Contain_Details{
+	
+}
+.containTitle_Box{
+	background-color: #12a3cb;
+	text-align: center;
+	padding: 5px 25px;
+	color: #fff;
+	font-weight: bold;
+}
