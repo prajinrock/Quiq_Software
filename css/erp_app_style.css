@@ -1276,10 +1276,11 @@ body{
 	transform: rotate(-90deg);
 	position: absolute;
 	top: 50px;
-	background-color: #10a6c3;
+	background-color: #bfe5f5;
 	border:none;
 	padding: 5px 15px;
-	color: #fff;
+	color: #34495e;
+	border-top: 2px solid rgba(0,0,0,0)
 }
 .transBox > button:nth-child(2){
 	top: 196px;
@@ -1287,10 +1288,12 @@ body{
 .transBox > button:nth-child(3){
 	top: 319px;
 }
+.ContainAct{
+	border-top: 2px solid #f5b489 !important;
+}
 .containerBox{
 	display: none;
 	background-color: #f1f1f1;
-	height: 100%;
 	width: 25%;
 	position: relative;
 }
@@ -1316,4 +1319,7 @@ body{
 	padding: 5px 25px;
 	color: #fff;
 	font-weight: bold;
+}
+.c{
+	clear: both;
 }

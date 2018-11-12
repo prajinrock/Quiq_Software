@@ -254,7 +254,7 @@
                   </div>
                 </div>
               </div>
-              <div class="row">
+              <div class="row" style="display: none;">
               	<div class="col-sm-12">
               		<div class="price_list_contain">
               			<div class="content_inner_box pad_10">
@@ -387,7 +387,7 @@
 					                    </div>
 					                  </div>
 					                </div>
-								</div>
+								        </div>
 	                          </div>
 	                          <div class="mdl-tabs__panel" id="userPanel2">
 	                            
@@ -427,7 +427,7 @@
 			                    </div>
 			                  </div>
 			                </div>
-						</div>
+						        </div>
               		</div>
               	</div>
               </div>
@@ -440,8 +440,40 @@
         <div class="Contain_Details">
           <div class="containTitle_Box">Transaction Details</div>
           <div class="containBoxContent">
-            <div class="ContainItem flexBox">
-              <label>Name: </label><span>John Smith</span>
+            <div class="row pad_10">
+              <div class="col-sm-4">Name</div>
+              <div class="col-sm-1">:</div>
+              <div class="col-sm-6">John Doe</div>
+            </div>
+            <div class="row pad_10">
+              <div class="col-sm-4">Name</div>
+              <div class="col-sm-1">:</div>
+              <div class="col-sm-6">John Doe</div>
+            </div>
+            <div class="row pad_10">
+              <div class="col-sm-4">Name</div>
+              <div class="col-sm-1">:</div>
+              <div class="col-sm-6">John Doe</div>
+            </div>
+            <div class="row pad_10">
+              <div class="col-sm-4">Name</div>
+              <div class="col-sm-1">:</div>
+              <div class="col-sm-6">John Doe</div>
+            </div>
+            <div class="row pad_10">
+              <div class="col-sm-4">Name</div>
+              <div class="col-sm-1">:</div>
+              <div class="col-sm-6">jKey board is a jQuery plugin for crea ting an on screen visual key board that sup ports custom layouts for multiple lang uages. It sup ports English, Azeri Turkish (a Turkic language) and Russian language. It can be prog rammed for a QWERTY keyboard or a numeric key board.</div>
+            </div>
+            <div class="row pad_10">
+              <div class="col-sm-4">Name</div>
+              <div class="col-sm-1">:</div>
+              <div class="col-sm-6">John Doe</div>
+            </div>
+            <div class="row pad_10">
+              <div class="col-sm-4">Name</div>
+              <div class="col-sm-1">:</div>
+              <div class="col-sm-6">John Doe</div>
             </div>
           </div>
         </div>
@@ -468,6 +500,10 @@ $(document).ready(function(){
     	$("#calContain1").toggleClass("actContain")
     	$("#containUp1").toggleClass("containOn")
     	$("#ContainWrapper").toggleClass("flexBox")
+    });
+    $(".transBox > button").click(function(){
+      $(".transBox > button").removeClass("ContainAct")
+      $(this).toggleClass("ContainAct")
     });
     $("#containToggle1").click(function(){
       $("#calContain1").toggleClass("actContain")
