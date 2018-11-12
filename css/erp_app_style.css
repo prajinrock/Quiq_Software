@@ -1293,8 +1293,7 @@ body{
 }
 .containerBox{
 	display: none;
-	background-color: #f1f1f1;
-	width: 25%;
+	width: 24%;
 	position: relative;
 }
 .actContain{
@@ -1302,6 +1301,7 @@ body{
 }
 .containOn{
 	display: block;
+
 }
 .contain_Toggle{
 	background-color: #12a3cb;
@@ -1311,7 +1311,7 @@ body{
 	cursor: pointer;
 }
 .Contain_Details{
-	
+	background-color: #f1f1f1;
 }
 .containTitle_Box{
 	background-color: #12a3cb;
