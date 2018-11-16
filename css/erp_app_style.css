@@ -1323,3 +1323,13 @@ body{
 .c{
 	clear: both;
 }
+.mdl-snackbar{
+	z-index: 50;
+}
+.notification_wrapp{
+	width: calc(100% - 20px);
+    position: absolute;
+    z-index: 50;
+    background: #fff;
+    margin-left: 0;
+}
