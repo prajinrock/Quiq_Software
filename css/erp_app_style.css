@@ -1172,6 +1172,26 @@ body{
 .swapper_box > .swappr:nth-child(2){
 	border-radius:0px 5px 5px 0px;
 }
+.swapper_box2{
+	align-items: center;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+.swapper_box2 div > .swappr:nth-child(1){
+	border-radius: 5px 0px 0px 5px;
+	margin-bottom: 10px;
+	border-right: 1px solid rgba(0,0,0,.1);
+}
+.swapper_box2 div > .swappr:nth-child(2){
+	border-radius: 0px 5px 5px 0px;
+	margin-bottom: 10px;
+}
+.swapper_box2 > .swappr:nth-child(3){
+	border-radius: 5px 0px 0px 5px;
+}
+.swapper_box2 > .swappr:nth-child(4){
+	border-radius: 0px 5px 5px 0px;
+}
 .swappr{
 	background-color: #12a3cb;
 	border: none;

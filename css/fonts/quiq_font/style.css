@@ -1,0 +1,119 @@
+@font-face {
+  font-family: 'quiq';
+  src:  url('fonts/quiq.eot?wt04bm');
+  src:  url('fonts/quiq.eot?wt04bm#iefix') format('embedded-opentype'),
+    url('fonts/quiq.ttf?wt04bm') format('truetype'),
+    url('fonts/quiq.woff?wt04bm') format('woff'),
+    url('fonts/quiq.svg?wt04bm#quiq') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="qe-"], [class*=" qe-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'quiq' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.qe-e_accounts:before {
+  content: "\e900";
+}
+.qe-e_admin:before {
+  content: "\e901";
+}
+.qe-e_cancel:before {
+  content: "\e902";
+}
+.qe-e_coa:before {
+  content: "\e903";
+}
+.qe-e_company:before {
+  content: "\e904";
+}
+.qe-e_country:before {
+  content: "\e905";
+}
+.qe-e_currency:before {
+  content: "\e906";
+}
+.qe-e_finance:before {
+  content: "\e907";
+}
+.qe-e_finYear:before {
+  content: "\e908";
+}
+.qe-e_gencode_type:before {
+  content: "\e909";
+}
+.qe-e_general_code:before {
+  content: "\e90a";
+}
+.qe-e_home:before {
+  content: "\e90b";
+}
+.qe-e_inventory:before {
+  content: "\e90c";
+}
+.qe-e_location:before {
+  content: "\e90d";
+}
+.qe-e_location_access:before {
+  content: "\e90e";
+}
+.qe-e_master:before {
+  content: "\e90f";
+}
+.qe-e_pos:before {
+  content: "\e910";
+}
+.qe-e_posting_group:before {
+  content: "\e911";
+}
+.qe-e_purchase:before {
+  content: "\e912";
+}
+.qe-e_rate:before {
+  content: "\e913";
+}
+.qe-e_reports:before {
+  content: "\e914";
+}
+.qe-e_reservation:before {
+  content: "\e915";
+}
+.qe-e_role:before {
+  content: "\e916";
+}
+.qe-e_role_to_menu:before {
+  content: "\e917";
+}
+.qe-e_sales:before {
+  content: "\e918";
+}
+.qe-e_save:before {
+  content: "\e919";
+}
+.qe-e_shift:before {
+  content: "\e91a";
+}
+.qe-e_transaction_template:before {
+  content: "\e91b";
+}
+.qe-e_user:before {
+  content: "\e91c";
+}
+.qe-e_user_to_role:before {
+  content: "\e91d";
+}
+.qe-e_voucher_master:before {
+  content: "\e91e";
+}
