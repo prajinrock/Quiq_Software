@@ -865,7 +865,7 @@ body{
 }
 
 .mdl-checkbox{
-	margin-top: 28px;
+	margin-top: 18px;
 }
 .mdl-checkbox__label, .mdl-radio__label{
 	font-size: 14px;
@@ -1116,7 +1116,7 @@ body{
 	color: rgb(17,137,170);
 }
 .qq_boxed{
-	padding: 10px 0px;
+	padding: 0px 0px;
 }
 .qq_cover .mdl-radio{
 	position: relative;
