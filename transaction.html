@@ -117,9 +117,9 @@
     </nav>
     </div>
     <div class="breadscrumb flexBox">
-      <a href="">Accounts</a>
+      <a href="">Trasaction</a>
       <i class="fa fa-chevron-circle-right" aria-hidden="true"></i>
-      <a href="#">Tax Group Master</a>
+      <a href="#">Trasaction</a>
     </div>
     <div class="menu_tabs">
       <ul class="nav nav-tabs">
@@ -147,7 +147,7 @@
     <div class="content_wrap">
       <div class="pad_10 flexBox Qbox_100">
         <div class="gnrl_tab">
-          <ul class="nav nav-tabs">
+          <ul class="nav nav-tabs mar_bottom">
             <li class="active"><a data-toggle="tab" href="#">General</a></li>
           </ul>
           <div class="tab-content">
@@ -329,19 +329,95 @@
                   </div>
                   <div class="col-sm-4">
                     <div class="erp_accord">
-                      <button class="accordion active">Section 1</button>
+                      <button class="accordion active">Document</button>
                       <div class="panel" style="display: block;">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                        <div class="row">
+                          <div class="col-sm-6">
+                            <div class="qq_boxed">
+                              <div class="qq_cover">
+                                <label>Taxable</label>
+                                <input type="text" name="" class="tx100">
+                              </div>
+                            </div>
+                          </div>
+                          <div class="col-sm-6">
+                            <div class="qq_boxed">
+                              <div class="qq_cover">
+                                <label>Tax</label>
+                                <input type="text" name="" class="tx100">
+                              </div>
+                            </div>
+                          </div>
+                          <div class="col-sm-6">
+                            <div class="qq_boxed">
+                              <div class="qq_cover">
+                                <label>Exempt</label>
+                                <input type="text" name="" class="tx100">
+                              </div>
+                            </div>
+                          </div>
+                          <div class="col-sm-6">
+                            <div class="qq_boxed">
+                              <div class="qq_cover">
+                                <label>Total</label>
+                                <input type="text" name="" class="tx100">
+                              </div>
+                            </div>
+                          </div>
+                          <div class="col-sm-6">
+                            <div class="qq_boxed">
+                              <div class="qq_cover">
+                                <label>Payment Dis.</label>
+                                <input type="text" name="" class="tx100">
+                              </div>
+                            </div>
+                          </div>
+                          <div class="col-sm-6">
+                            <div class="qq_boxed">
+                              <div class="qq_cover">
+                                <label>Paid</label>
+                                <input type="text" name="" class="tx100">
+                              </div>
+                            </div>
+                          </div>
+                          <div class="col-sm-6">
+                            <div class="qq_boxed">
+                              <div class="qq_cover">
+                                <label>Balance</label>
+                                <input type="text" name="" class="tx100">
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        
                       </div>
 
-                      <button class="accordion">Section 2</button>
+                      <button class="accordion">Item Profile </button>
                       <div class="panel">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                        <div class="row">
+                          <div class="col-sm-6">
+                            <div class="qq_boxed">
+                              <div class="qq_cover">
+                                <label>Current Stock</label>
+                                <input type="text" name="" class="tx100">
+                              </div>
+                            </div>
+                          </div>
+                        </div>
                       </div>
 
-                      <button class="accordion">Section 3</button>
+                      <button class="accordion">Vendor Info.</button>
                       <div class="panel">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                        <div class="row">
+                          <div class="col-sm-6">
+                            <div class="qq_boxed">
+                              <div class="qq_cover">
+                                <label>Vendor Info</label>
+                                <input type="text" name="" class="tx100">
+                              </div>
+                            </div>
+                          </div>
+                        </div>
                       </div>
                     </div>
                   </div>
@@ -374,6 +450,15 @@ $(document).ready(function(){
         $("#LeftMenu").toggleClass("togled");
         $("#clientName").toggleClass("spaced");
     });
+});
+$('.content_wrap').scroll(function() {    
+    var scroll = $('.content_wrap').scrollTop();
+
+    if (scroll >= 20) {
+        $(".menu_tabs .tab-content").addClass("scrolUp");
+    } else {
+        $(".clearHeader").removeClass("scrolUp");
+    }
 });
 </script>
 <script>//Accordion
