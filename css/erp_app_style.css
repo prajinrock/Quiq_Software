@@ -1420,3 +1420,43 @@ body{
 .scrolUp{
 	box-shadow: 0px 2px 3px rgba(0,0,0,.1);
 }
+ul, #myUL {
+  list-style-type: none;
+}
+
+#myUL {
+  margin: 0;
+  padding: 0;
+}
+
+.caret2 {
+  cursor: pointer;
+  -webkit-user-select: none; /* Safari 3.1+ */
+  -moz-user-select: none; /* Firefox 2+ */
+  -ms-user-select: none; /* IE 10+ */
+  user-select: none;
+}
+
+.caret2::before {
+  font-family: 'quiq_font';
+  content: "\e901";
+  color: black;
+  display: inline-block;
+  margin-right: 6px;
+}
+
+.caret-down::before {
+  /*-ms-transform: rotate(90deg);
+  -webkit-transform: rotate(90deg);
+  transform: rotate(90deg);*/
+  font-family: 'quiq_font';
+  content: "\e91c";
+}
+
+.nested {
+  display: none;
+}
+
+.active {
+  display: block;
+}
