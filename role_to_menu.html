@@ -120,7 +120,7 @@
     <div class="breadscrumb flexBox">
       <a href="">Administration</a>
       <i class="fa fa-chevron-circle-right" aria-hidden="true"></i>
-      <a href="#">Role To User</a>
+      <a href="#">Role To Menu</a>
     </div>
     <div class="menu_tabs">
       <ul class="nav nav-tabs">
@@ -152,9 +152,38 @@
             <li class="active"><a data-toggle="tab" href="#">General</a></li>
           </ul>
           <div class="tab-content">
-            <div class="tab-pane fade in active padTop">
+            <div class="tab-pane fade in active">
+              <div class="row">
+                <div class="col-sm-3">
+                  <div class="qq_boxed">
+                    <div class="qq_cover">
+                      <label>Code</label>
+                      <input type="text" name="" class="tx100">
+                    </div>
+                  </div>
+                </div>
+                <div class="col-sm-3">
+                  <div class="qq_boxed">
+                    <div class="qq_cover">
+                      <label>Description</label>
+                      <input type="text" name="" class="tx100">
+                    </div>
+                  </div>
+                </div>
+                <div class="col-sm-3">
+                  <div class="qq_boxed">
+                    <div class="qq_cover">
+                      <label class="mdl-checkbox mdl-js-checkbox mdl-js-ripple-effect" for="checkbox-2">
+                        <input type="checkbox" id="checkbox-2" class="mdl-checkbox__input">
+                        <span class="mdl-checkbox__label">Non Taxable</span>
+                      </label>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              
                 <div class="row">
-                  <div class="col-sm-3">
+                  <div class="col-sm-4">
                     <div class="content_inner_box">
                       <div class="inner_box_title">Role</div>
                       <div class="pad_10">
@@ -166,15 +195,26 @@
                       </div>
                     </div>
                   </div>
-                  <div class="col-sm-3">
+                  <div class="col-sm-4">
                     <div class="content_inner_box">
                       <div class="inner_box_title">User</div>
                       <div class="pad_10">
                         <ul class="treeUI">
-                          <li><input type="checkbox"> Admin</span></li>
-                          <li><input type="checkbox"> Waiter</span></li>
-                          <li><input type="checkbox"> Cashier</span></li>
-                        </ul>
+            						  <li><span class="caret2"><input type="checkbox"> Gencode</span>
+            						    <ul class="nested">
+                              <li><input type="checkbox"> Add</li>
+                              <li><input type="checkbox"> Edit</li>
+                              <li><input type="checkbox"> Delete</li>
+                            </ul>
+            						  </li>
+                          <li><span class="caret2"><input type="checkbox"> Shift</span>
+                            <ul class="nested">
+                              <li><input type="checkbox"> Add</li>
+                              <li><input type="checkbox"> Edit</li>
+                              <li><input type="checkbox"> Delete</li>
+                            </ul>
+                          </li>
+            						</ul>
                       </div>
                     </div>
                   </div>

@@ -1424,7 +1424,7 @@ ul, #myUL {
   list-style-type: none;
 }
 
-#myUL {
+.treeUI {
   margin: 0;
   padding: 0;
 }
@@ -1443,6 +1443,7 @@ ul, #myUL {
   color: black;
   display: inline-block;
   margin-right: 6px;
+  color: #10a4c8;
 }
 
 .caret-down::before {
@@ -1459,4 +1460,7 @@ ul, #myUL {
 
 .active {
   display: block;
+}
+.padTop{
+	padding-top: 10px;
 }
